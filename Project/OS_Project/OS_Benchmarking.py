@@ -112,7 +112,8 @@ def option2():
     for j in range(12):
 
         X_data = []
-        files = glob.glob (r"C:\Users\Rithvik\Documents\CODE\OS Project\Project\OS_Images\*.jpg")
+
+        files = glob.glob (r"../OS_Images/*.jpg")
 
         i = 0
         count = 0
